@@ -150,8 +150,8 @@
         </div>
     </header>
     <main>
-        <div class="container">
-            <div class="row">
+        <div class="container-fluid">
+            <div class="row profile-row">
                 <div class="col-sm-2 border-right">
                     <div class="side-navigation d-flex flex-direction-column">
                         <ul class="side-navigation-list">
@@ -167,109 +167,111 @@
                         </ul>
                     </div>
                 </div>
-            <div class="col-sm-1 blank"></div>
-            <div class="col-sm-9">
-                <div class="profile-title">
-                    <h1>ПРОФИЛЬ</h1>
-                </div>
-            </div>
-        </div>
-        <div class="border-blank"></div>
-    </div>
-    <div class="container">
-        <div class="row">
-           <div class="col-sm-2 blank border-right"></div>
-           <div class="col-sm-1 blank"></div>
-            <div class="col-sm-4 ">
-                <div class="profile-data">
-                    <h2>Данные профиля</h2>
-                    <form class="profile-data-form js-form" id="profile-form">
-                        <div class="form-item">
-                            <label for="full-name">
-                                <span class="form-line-name">ФИО</span>
-                                <input type="text" name="user-full-name"  id="full-name" placeholder="Имя" class="form-input js-input">
-                                <span class="error js-error d-none">Это обязательное поле</span>
-                            </label>
+                <div class="profile-title-container d-flex col-10 border-bottom">
+                    <div class="col-sm-1 blank"></div>
+                    <div class="col-sm-9">
+                        <div class="profile-title">
+                            <h1>ПРОФИЛЬ</h1>
                         </div>
-                        <div class="form-item">
-                            <label for="e-mail">
-                                <span class="form-line-name">Почта</span>
-                                <input type="email" name="email" id="e-mail" placeholder="e-mail" class="form-input js-input js-mail" >
-                                <span class="error js-error d-none">Это обязательное поле</span>
-                            </label>
-                        </div>
-                        <div class="form-item">
-                            <label for="phone-num">
-                                <span class="form-line-name">Телефон</span>
-                                <input type="tel" name="phone-number" id="phone-num" placeholder="Номер телефона" class="form-input js-input js-phone" >
-                                <span class="error js-error d-none">Это обязательное поле</span>
-                            </label>
-                        </div>
-                        <div class="form-item">
-                            <label for="account-name">
-                                <span class="form-line-name">Имя аккаунта</span>
-                                <input type="text" name="account-name" id="account-name" placeholder="Имя аккаунта" class="form-input js-input" >
-                                <span class="error js-error d-none">Это обязательное поле</span>
-                            </label>
-                        </div>
-                        <div class="form-item">
-                            <label for="instagram-profile">
-                                <span class="form-line-name">Профиль в инстаграм</span>
-                                <input type="text" name="instagram-profile" id="instagram-profile" placeholder="Ссылка" class="form-input js-input js-link" >
-                                <span class="error js-error d-none">Это обязательное поле</span>
-                            </label>
-                        </div>
-                        <div class="form-item">
-                            <label for="delivery">
-                                <span class="form-line-name">Адрес доставки</span>
-                                <input type="text" name="delivery-address" id="delivery" placeholder="Адрес" class="form-input js-input" >
-                                <span class="error js-error d-none">Это обязательное поле</span>
-                            </label>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
-        <div class="border-blank"></div>
-    </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-2 blank border-right"></div>
-                <div class="col-sm-1 blank"></div>
-                <div class="col-sm-4">
-                    <div class="change-password">
-                        <h2>Изменить пароль</h2>
-                        <form class="password-change-form">
-                            <div class="form-item old-password-container">
-                                <label for="old-pas">
-                                    <span class="form-line-name">Старый пароль</span>
-                                    <div>
-                                        <input type="password" name="old-password" id="old-pas" class="form-input js-old-pas-input" placeholder="•••••••••••••••••••">
-                                        <span class="password-control js-control-pas view" onclick="visibilityHandler()"></span>
-                                    </div>
-                                </label>
-                            </div>
-                            <div class="form-item">
-                                <span class="form-line-name">Новый пароль</span>
-                                <input type="text" name="new-password" class="form-input" placeholder="Введите новый пароль">
-                            </div>
-                        </form>
                     </div>
                 </div>
             </div>
-            <div class="border-blank"></div>
         </div>
-        <div class="container">
-            <div class="row">
+        <div class="container-fluid">
+            <div class="row profile-row">
+               <div class="col-sm-2 blank border-right"></div>
+               <div class="profile-data-container d-flex col-10 border-bottom">
+                    <div class="col-sm-1 blank"></div>
+                    <div class="col-sm-7 ">
+                        <div class="profile-data">
+                            <h2>Данные профиля</h2>
+                            <form class="profile-data-form js-form" id="profile-form">
+                                <div class="form-item">
+                                    <label for="full-name">
+                                        <span class="form-line-name">ФИО</span>
+                                        <input type="text" name="user-full-name"  id="full-name" placeholder="Имя" class="form-input js-input">
+                                        <span class="error js-error d-none">Это обязательное поле</span>
+                                    </label>
+                                </div>
+                                <div class="form-item">
+                                    <label for="e-mail">
+                                        <span class="form-line-name">Почта</span>
+                                        <input type="email" name="email" id="e-mail" placeholder="e-mail" class="form-input js-input js-mail" >
+                                        <span class="error js-error d-none">Это обязательное поле</span>
+                                    </label>
+                                </div>
+                                <div class="form-item">
+                                    <label for="phone-num">
+                                        <span class="form-line-name">Телефон</span>
+                                        <input type="tel" name="phone-number" id="phone-num" placeholder="Номер телефона" class="form-input js-input js-phone" >
+                                        <span class="error js-error d-none">Это обязательное поле</span>
+                                    </label>
+                                </div>
+                                <div class="form-item">
+                                    <label for="account-name">
+                                        <span class="form-line-name">Имя аккаунта</span>
+                                        <input type="text" name="account-name" id="account-name" placeholder="Имя аккаунта" class="form-input js-input" >
+                                        <span class="error js-error d-none">Это обязательное поле</span>
+                                    </label>
+                                </div>
+                                <div class="form-item">
+                                    <label for="instagram-profile">
+                                        <span class="form-line-name">Профиль в инстаграм</span>
+                                        <input type="text" name="instagram-profile" id="instagram-profile" placeholder="Ссылка" class="form-input js-input js-link" >
+                                        <span class="error js-error d-none">Это обязательное поле</span>
+                                    </label>
+                                </div>
+                                <div class="form-item">
+                                    <label for="delivery">
+                                        <span class="form-line-name">Адрес доставки</span>
+                                        <input type="text" name="delivery-address" id="delivery" placeholder="Адрес" class="form-input js-input" >
+                                        <span class="error js-error d-none">Это обязательное поле</span>
+                                    </label>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row profile-row">
+                <div class="col-sm-2 blank border-right"></div>
+                <div class="password-container d-flex col-10 border-bottom">
+                    <div class="col-sm-1 blank"></div>
+                    <div class="col-sm-7">
+                        <div class="change-password">
+                            <h2>Изменить пароль</h2>
+                            <form class="password-change-form">
+                                <div class="form-item old-password-container">
+                                    <label for="old-pas">
+                                        <span class="form-line-name">Старый пароль</span>
+                                        <div>
+                                            <input type="password" name="old-password" id="old-pas" class="form-input js-old-pas-input" placeholder="•••••••••••••••••••">
+                                            <span class="password-control js-control-pas view" onclick="visibilityHandler()"></span>
+                                        </div>
+                                    </label>
+                                </div>
+                                <div class="form-item">
+                                    <span class="form-line-name">Новый пароль</span>
+                                    <input type="text" name="new-password" class="form-input" placeholder="Введите новый пароль">
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid border-bottom">
+            <div class="row profile-row">
                 <div class="col-sm-2 blank border-right"></div>
                 <div class="col-sm-1 blank"></div>
-                <div class="col-sm-3">
+                <div class="col-sm-3 ">
                     <div class="save-btn">
                         <button form="profile-form" type="submit">Сохранить изменения</button>
                     </div>
                 </div>
             </div>
-            <div class="blank-end-profile"></div>
         </div>
     </main>
         <div class="container"> 

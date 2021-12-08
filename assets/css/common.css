@@ -6,6 +6,10 @@ body {
     min-width: 320px;
 }
 
+.profile-row {
+    margin-left: 69px;
+}
+
 .js-no-scroll {
     overflow: hidden;
 }
@@ -27,19 +31,6 @@ h2 {
     font-size: 24px;
 }
 
-.border-blank {
-    position: relative;
-    width: 1055px;
-    border-bottom: 1px solid #dee2e6;
-    left: 174px;
-}
-
- .blank-end-profile {
-    position: relative;
-    width: 1429px;
-    left: -200px;
-    border-bottom: 1px solid #dee2e6;
-}
 
 .blank {
     padding: 0px;
@@ -186,6 +177,10 @@ h2 {
     padding-top: 142px;
 }
 
+.profile-title-container {
+    padding: 0;
+}
+
 .profile-title {
     padding-bottom: 80px;
 }
@@ -210,6 +205,8 @@ h2 {
 }
 
 /* Профиль */
+
+
 
 .profile-data {
     padding-top: 80px;
