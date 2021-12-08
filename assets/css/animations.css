@@ -1,0 +1,16 @@
+.menu-window {
+    animation-name: menu-visibility;
+    animation-duration: 0.3s;
+
+}
+
+@keyframes menu-visibility {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+
+}

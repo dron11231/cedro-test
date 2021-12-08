@@ -1,0 +1,473 @@
+/* Спецификация */
+
+body {
+    background-color: #fff;
+    font-family: 'TT Norms', sans-serif;
+    min-width: 320px;
+}
+
+.js-no-scroll {
+    overflow: hidden;
+}
+
+ul {
+    list-style: none;
+}
+
+input {
+    display: block; 
+    background-color: #F7F7F7;
+    border: none;
+    border-radius: 4px;
+    backdrop-filter: blur(4px);
+    outline: none;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+.border-blank {
+    position: relative;
+    width: 1055px;
+    border-bottom: 1px solid #dee2e6;
+    left: 174px;
+}
+
+ .blank-end-profile {
+    position: relative;
+    width: 1429px;
+    left: -200px;
+    border-bottom: 1px solid #dee2e6;
+}
+
+.blank {
+    padding: 0px;
+
+}
+
+/* Меню */
+
+.menu-window {
+    width: 100%;
+    position: absolute;
+    background-color: #fff;
+    z-index: 2;
+    height: 100%;
+}
+
+.menu-header {
+    height: 64px;
+    width: 100%;
+}
+
+.menu-logo {
+    position: absolute;
+    top: 16px;
+    left: 32px;
+}
+
+.close-window {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    cursor: pointer;
+}
+
+.main-menu {
+    margin-top: 150px;
+}
+
+.menu-title {
+    font-size: 24px;
+    color: #21242E;
+}
+
+.menu-list li a {
+    text-decoration: none;
+    color: rgba(33, 36, 46, 0.8);
+    font-size: 16px;
+}
+
+.menu-list-item:not(:first-of-type) {
+    margin-top: 16px;
+}
+
+.menu-list {
+    margin-top: 24px;
+    padding: 0;
+}
+
+.menu-contacts ul {
+    padding-left: 23px;
+}
+
+.menu-contacts ul li:first-of-type {list-style-image: url(/images/tel-black.svg);}
+.menu-contacts ul li:nth-child(2) {list-style-image: url(/images/MailBlack.svg);}
+.menu-contacts ul li:nth-child(3) {list-style-image: url(/images/time-black.svg);}
+.menu-contacts ul li:last-of-type {list-style-image: url(/images/geo-black.svg);} 
+
+/* Хедер*/
+
+.logo {
+    position: absolute;
+    left: 32px;
+    top: 16px;
+}
+
+.header {
+    padding-top: 20px;
+    
+}
+
+.header .row, nav .nav-item {
+    max-height: 40px;
+}
+
+.menu {
+    gap: 16px;
+    margin-left: 64px;
+}
+
+.menu-item .menu-link {
+    color: black;
+    letter-spacing: 0.04em;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.nav {
+    gap: 32px;
+}
+
+.contacts {
+    font-size: 14px;
+    color: #D0BC7A;
+    padding-top: 2px;
+ }
+
+.icon-list {
+    padding: 0;
+}
+
+.icon-list-item {
+    width: 32px;
+    height: 32px;
+}
+
+.icon {
+    padding: 0;
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+
+.icon-phone {background-image: url(/images/iconsPhone.svg);}
+.icon-search {background-image: url(/images/iconsSearch.svg);}
+.favorites {background-image: url(/images/iconsHeart.svg);}
+.icon-bag {background-image: url(/images/iconsBag.svg);}
+.icon-human {background-image: url(/images/iconsHuman.svg);}
+.humburger {background-image: url(/images/iconsHumburger.svg);}
+
+.contacts .number {
+    margin-left: 8px;
+}
+
+.contacts .icon, .contacts .number {
+    padding: 0;
+}
+
+
+
+/* Боковая панель навигации и заголовок */
+
+
+.side-navigation, .profile-title{
+    padding-top: 142px;
+}
+
+.profile-title {
+    padding-bottom: 80px;
+}
+
+.profile-title h1 {
+    font-size: 80px;
+    font-weight: 400;
+    line-height: 75px;
+}
+
+
+
+.side-navigation-list {
+    padding: 0;
+    font-weight: 500;
+}
+
+.side-navigation-item .side-navigation-link {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+
+/* Профиль */
+
+.profile-data {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.profile-data-form {
+    margin-top: 48px;
+}
+
+ .form-item:not(:first-child) {
+    margin-top: 24px;
+} 
+
+.form-item, .form-item label {
+    width: 544px;
+}
+
+
+.form-line-name {
+    font-size: 16px;
+    color: rgba(33, 36, 46, 0.4);
+}
+
+.form-input {
+    margin-top: 12px;
+    padding: 16px;
+    width: 100%;
+}
+
+/* Пароль */
+
+.change-password {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.password-change-form {
+    margin-top: 48px;
+}
+
+.password-control {
+    position: relative;
+    display: inline-block;
+    left: 512px;
+    top: -39px;
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+
+.old-password-container {
+    height: 92px;
+}
+
+.view {
+    background-image: url(/images/iconsEye.svg);
+}
+
+.view:hover {
+    background-image: url(/images/iconsEyeHover.svg);
+}
+
+.no-view {
+    background-image: url(/images/iconsNoView.svg);
+}
+
+.no-view:hover {
+    background-image: url(/images/iconsNoViewHover.svg);
+}
+
+/* Кнопка */ 
+
+.save-btn {
+    padding-top: 80px;
+    padding-bottom: 112px;
+}
+
+.save-btn button {
+    background-color: #21242E;
+    border: none;
+    font-size: 16px;
+    padding: 16px 32px;
+    color: #fff;
+    border-radius: 4px;
+}
+
+/* Слайдер */ 
+
+.slider {
+    margin-top: 112px;
+}
+
+.directory-link {
+    background-image: url(/images/ArrowRight.svg);
+    background-repeat: no-repeat;
+    background-position-x: 150px;
+    background-position-y: 26px;
+    background-color: #fff;
+    border: none;
+    padding-right: 30px;
+    font-weight: 500;
+}
+
+.slider-title {
+    font-size: 48px;
+}
+
+.slider-title-color {
+    color: #D0BC7A;
+}
+
+.owl-carousel {
+    margin-top: 48px;
+    
+}
+
+ .card-product {
+    width: 256px;
+    background-color: #F7F7F7;
+    border-radius: 8px;
+} 
+
+.product-picture {
+    box-sizing: unset;
+}
+
+.owl-carousel .card-product .product-picture {
+    width: 218px;
+    padding: 0px 19px;
+}
+
+.special-offer {
+    background-color: #EB5757;
+    border-radius: 100px;
+    font-size: 14px;
+    color: #fff;
+    padding: 4px 12px 6px;
+    position: absolute;
+    top: 19px;
+    left: 19px;
+}
+
+.owl-carousel .card-product .favorite-heart {
+    position: absolute;
+    top: 21px;
+    right: 32px;
+    width: 24px;
+    height: 24px;
+    background-image: url(/images/likeHeart.svg);
+    cursor: pointer;
+}
+
+.ribbon {
+    width: 100%;
+    height: 12px;
+}
+.color-1 {background-color:#C08D74}
+.color-2 {background-color:#EA976F}
+.color-3 {background-color:#C07474} 
+
+.product-info span {
+    display: block;
+}
+
+.product-info span:not(:first-of-type) {
+    margin-top: 8px;
+}
+
+.product-info {
+    margin: 24px 24px 0 24px;
+    font-size: 14px;
+}
+
+.product-name {
+    font-size: 18px;
+    font-family: 'PF Regal Display Pro', sans-serif;
+    font-style: italic;
+    font-weight: 500;
+}
+
+.product-price {
+    font-family: 'PF Regal Display Pro', sans-serif;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 500;
+    margin-top: 16px;
+    margin-left: 24px;
+    padding-bottom: 24px;
+}
+
+.old-price {
+    margin-left: 8px;
+    color: rgba(33, 36, 46, 0.4);
+    text-decoration: line-through;
+}
+
+/* Футер */
+
+footer {
+    background-color: #21242E;
+    padding-top: 56px;
+    padding-bottom: 32px;
+    margin-top: 88px;
+}
+
+.footer-title {
+    color: #fff;
+    font-size: 24px;
+}
+
+.footer-list {
+    padding: 0;
+    margin-top: 24px;
+    margin-bottom: 0;
+}
+
+.footer-contacts ul {
+    padding-left: 23px;
+}
+
+.footer-list li a {
+    color: rgba(255, 255, 255, 0.8);
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.footer-list li:not(:first-of-type) {
+    margin-top: 16px;
+}
+.contacts-list-item:first-of-type {list-style-image: url(/images/Telefon.svg);}
+.contacts-list-item:nth-child(2) {list-style-image: url(/images/mail.svg);}
+.contacts-list-item:nth-child(3) {list-style-image: url(/images/time.svg);}
+.contacts-list-item:last-of-type {list-style-image: url(/images/geo.svg);} 
+
+
+.copyrights {
+    margin-top: 56px;
+    padding: 39px 0;
+    border-top: rgba(255, 255, 255, 0.16) 1px solid;
+    border-bottom: rgba(255, 255, 255, 0.16) 1px solid;
+}
+
+.social-media {
+    gap: 8px;
+}
+
+.copyright, .made-in {
+    color: rgba(255, 255, 255, 0.4);
+}
+
+.made-in img {
+    height: 11px;
+    margin-left: 8px;
+}
+
+.copyright-information {
+    color: rgba(255, 255, 255, 0.4);
+    font-size: 14px;
+    margin-top: 32px;
+}

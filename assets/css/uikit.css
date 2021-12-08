@@ -1,0 +1,144 @@
+.main-menu .menu-list a:hover {
+    color: #D0BC7A;
+}
+
+.logo {
+    cursor: pointer;
+}
+
+.menu-link:hover {
+    color: #D0BC7A;
+}
+
+
+
+.contacts:hover .number {
+    color: #21242E;
+    cursor: pointer;
+}
+
+.contacts:hover .icon-phone {
+    background-image: url(/images/BlackPhone.svg);
+}
+
+.menu-title:hover {
+    cursor: pointer;
+    color: #D0BC7A;
+}
+
+.side-navigation-item .active {
+    color: #D0BC7A;
+}
+
+
+.icon-search:hover {background-image: url(/images/BlackSearch.svg);}
+.favorites:hover {background-image: url(/images/blackHeart.svg);}
+.icon-bag:hover {background-image: url(/images/BlackBag.svg);}
+.icon-human:hover {background-image: url(/images/BlackHuman.svg);}
+.humburger:hover {background-image: url(/images/GoldenHumburger.svg);cursor:pointer;}
+
+.error {
+    color: #DA7070;
+    font-size: 14px;
+}
+
+.input-err::-webkit-input-placeholder { 
+    color: #DA7070;
+ }
+ .input-err:-moz-placeholder { 
+    color: #DA7070;
+ }
+ .input-err::-moz-placeholder { 
+    color: #DA7070;
+ }
+ .input-err:-ms-input-placeholder { 
+    color: #DA7070;
+ }
+
+
+ input::-webkit-input-placeholder { 
+     color: rgba(33, 36, 46, 0.4);
+ }
+ input:-moz-placeholder { 
+     color: rgba(33, 36, 46, 0.4);
+ }
+ input::-moz-placeholder { 
+     color: rgba(33, 36, 46, 0.4);
+ }
+ input:-ms-input-placeholder { 
+     color: rgba(33, 36, 46, 0.4);
+ }
+
+ input:hover::-webkit-input-placeholder { 
+     color: rgba(33, 36, 46, 0.8);
+}
+input:hover:-moz-placeholder { 
+     color: rgba(33, 36, 46, 0.8);
+}
+input:hover::-moz-placeholder { 
+     color: rgba(33, 36, 46, 0.8);
+}
+input:hover:-ms-input-placeholder { 
+     color: rgba(33, 36, 46, 0.8);
+}
+
+.form-input {
+    color: #D0BC7A;
+}
+
+input:focus {
+    color: #21242E;
+}
+
+.directory-link:hover {
+    color: #D0BC7A;
+    background-image: url(/images/GoldenArrowRight.svg);
+
+}
+
+.save-btn button:hover {
+    background-color: #D0BC7A;
+}
+
+.card-product:hover {
+    border: 1px solid rgba(33, 36, 46, 0.4);
+    cursor: pointer;
+}
+
+.card-product:hover .product-name {
+    color: #D0BC7A;
+}
+
+.card-product .favorite-heart:hover {
+    background-image: url(/images/hoverHeart.svg);
+}
+
+.selected-product {
+    background-image: url(/images/activeHeart.svg) !important;
+}
+
+.like-counter {
+    position: relative;
+    top: -12px;
+    left: 15px;
+    font-size: 8px;
+    background-color: #21242E;
+    border-radius: 100px;
+    padding: 3px 2px;
+    color: #fff;
+}
+
+
+.made-in, .copyright {
+    cursor: pointer;
+}
+
+.footer-title:hover {
+    color: #D0BC7A;
+    cursor: pointer;
+}
+
+.footer a:hover {
+    color: rgba(255, 255, 255, 0.8);
+    opacity: 0.56;
+}

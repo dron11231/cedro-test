@@ -1,0 +1,21 @@
+@media (min-width: 1700px) and (max-width: 1920px) {
+    .container{ 
+        max-width: 1600px;
+    }
+
+    .border-blank {
+        position: relative;
+        width: 1492px;
+        border-bottom: 1px solid #dee2e6;
+        left: 253px;
+    }
+    
+     .blank-end-profile {
+        position: relative;
+        width: 1429px;
+        left: -200px;
+        border-bottom: 1px solid #dee2e6;
+    }
+
+
+}
