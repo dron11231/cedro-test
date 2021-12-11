@@ -4,16 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/fonts/TT Norms/stylesheet.css">
-    <link rel="stylesheet" href="/fonts/PF Regal Display Pro/stylesheet.css">
+    <link rel="stylesheet" href="/fonts/TT-Norms/stylesheet.css">
+    <link rel="stylesheet" href="/fonts/PF-Regal-Display-Pro/stylesheet.css">
     <link rel="stylesheet" href="/lib/bootstrap/bootstrap.min.css">
     <link rel="stylesheet" href="/lib/Jquery/Plugins/owl-carousel/css/owl.theme.default.css">
     <link rel="stylesheet" href="/lib/Jquery/Plugins/owl-carousel/css/owl.carousel.min.css">
     <link rel="stylesheet" href="/lib/Jquery/Plugins/owl-carousel/css/owl.carousel.css">
     <script src="/lib/JQuery/jquery-3.6.0.min.js"></script>
     <script src="/lib/Jquery/Plugins/owl-carousel/js/owl.carousel.min.js"></script>
-    <script src="/lib/Jquery/Plugins/Jquery MaskedInput/jquery.maskedinput.js"></script>
-    <script src="/lib/Jquery/Plugins/Jquery MaskedInput/jquery.maskedinput.min.js"></script>
+    <script src="/lib/Jquery/Plugins/Jquery-MaskedInput/jquery.maskedinput.js"></script>
+    <script src="/lib/Jquery/Plugins/Jquery-MaskedInput/jquery.maskedinput.min.js"></script>
+    
     <link rel="stylesheet" href="/css/common.css">
     <link rel="stylesheet" href="/css/animations.css">
     <link rel="stylesheet" href="/css/uikit.css">
@@ -24,13 +25,13 @@
     <div class="js-menu menu-window d-none">
         <div class="container">
             <div class="menu-header">
-                <img src="/images/logo.svg" class="menu-logo" alt="">
-                <img src="/images/close-window.svg" class="close-window" onclick="menuVisibilityHandler()">
+                <img src="/images/logo.svg" class="menu-logo" alt="logo">
+                <img src="/images/close-window.svg" class="close-window" alt="close-window" onclick="menuVisibilityHandler()">
             </div>
             <div class="row main-menu justify-content-between">
                 <div class="col-sm-3">
                     <div class="menu-production">
-                        <h4 class="menu-title">Продукция</h3>
+                        <h4 class="menu-title">Продукция</h4>
                         <ul class="menu-list">
                             <li class="menu-list-item">
                                 <a href="#">Пигменты</a>
@@ -52,7 +53,7 @@
                 </div>
                 <div class="col-sm-3">
                     <div class="menu-company">
-                        <h4 class="menu-title">Компания</h3>
+                        <h4 class="menu-title">Компания</h4>
                         <ul class="menu-list">
                             <li class="menu-list-item">
                                 <a href="#">Блог</a>
@@ -74,7 +75,7 @@
                 </div>
                 <div class="col-sm-4">
                     <div class="menu-contacts">
-                        <h4 class="menu-title">Контакты</h3>
+                        <h4 class="menu-title">Контакты</h4>
                         <ul class="menu-list">
                             <li class="menu-list-item">
                                 <a href="#">8 (800) 555-35-35</a>
@@ -83,7 +84,7 @@
                                 <a href="#">cedro@yandex.ru</a>
                             </li>
                             <li class="menu-list-item">
-                                <a href="#">Время работы: пн - пт с 10 до 19 </span>
+                                <a href="#">Время работы: пн - пт с 10 до 19 </a>
                             </li>
                             <li class="menu-list-item">
                                 <a href="#">г. Санкт-Петербург, <br>м. Звездная</a>
@@ -95,18 +96,18 @@
         </div>
     </div>
     <header class="header border-bottom">
-        <div class="container">
-            <div class="row">
-                    <img src="/images/logo.svg" alt="" class="logo">
-                <div class="col-">
-                    <ul class="menu d-flex justify-content-center">
+        <div class="container js-header-bar">
+            <div class="row align-items-center">
+                    <img src="/images/logo.svg" alt="logo" class="logo">
+                <div class="col- menu-container">
+                    <ul class="menu d-flex">
                         <li class="menu-item">
                             <a href="#" class="menu-link">ПИГМЕНТЫ</a>
-                            <img src="/images/arrow.svg" alt="" class="menu-link-arrow">
+                            <img src="/images/arrow.svg" alt="Folding arrow" class="menu-link-arrow">
                         </li>
                         <li class="menu-item">
                             <a href="#" class="menu-link">ТОВАРЫ ДЛЯ ПМ</a>
-                            <img src="/images/arrow.svg" alt="" class="menu-link-arrow">
+                            <img src="/images/arrow.svg" alt="Folding arrow" class="menu-link-arrow">
                         </li>
                         <li class="menu-item">
                             <a href="#" class="menu-link">РЕМУВЕР</a>
@@ -152,8 +153,8 @@
     <main>
         <div class="container-fluid">
             <div class="row profile-row">
-                <div class="col-sm-2 border-right">
-                    <div class="side-navigation d-flex flex-direction-column">
+                <div class="col-sm-2 border-right js-side-nav-container side-nav">
+                    <div class="side-navigation">
                         <ul class="side-navigation-list">
                             <li class="side-navigation-item">
                                 <a href="#" class="side-navigation-link active">ПРОФИЛЬ</a>
@@ -167,9 +168,9 @@
                         </ul>
                     </div>
                 </div>
-                <div class="profile-title-container d-flex col-10 border-bottom">
+                <div class="profile-title-container d-flex col-10 border-bottom js-form-containers">
                     <div class="col-sm-1 blank"></div>
-                    <div class="col-sm-9">
+                    <div class="col- js-title-containers">
                         <div class="profile-title">
                             <h1>ПРОФИЛЬ</h1>
                         </div>
@@ -177,12 +178,12 @@
                 </div>
             </div>
         </div>
-        <div class="container-fluid">
+        <div class="container-fluid profile-data-main-container">
             <div class="row profile-row">
                <div class="col-sm-2 blank border-right"></div>
-               <div class="profile-data-container d-flex col-10 border-bottom">
+               <div class="profile-data-container js-form-containers d-flex col-10 border-bottom">
                     <div class="col-sm-1 blank"></div>
-                    <div class="col-sm-7 ">
+                    <div class="col- profile-data-container-2 js-profile-data-container">
                         <div class="profile-data">
                             <h2>Данные профиля</h2>
                             <form class="profile-data-form js-form" id="profile-form">
@@ -234,22 +235,22 @@
                 </div>
             </div>
         </div>
-        <div class="container-fluid">
+        <div class="container-fluid pwd-main-container">
             <div class="row profile-row">
                 <div class="col-sm-2 blank border-right"></div>
-                <div class="password-container d-flex col-10 border-bottom">
+                <div class="password-container js-form-containers d-flex col-10 border-bottom">
                     <div class="col-sm-1 blank"></div>
-                    <div class="col-sm-7">
+                    <div class="col- change-password-container js-change-password">
                         <div class="change-password">
                             <h2>Изменить пароль</h2>
                             <form class="password-change-form">
                                 <div class="form-item old-password-container">
                                     <label for="old-pas">
                                         <span class="form-line-name">Старый пароль</span>
-                                        <div>
+                                        <span>
                                             <input type="password" name="old-password" id="old-pas" class="form-input js-old-pas-input" placeholder="•••••••••••••••••••">
                                             <span class="password-control js-control-pas view" onclick="visibilityHandler()"></span>
-                                        </div>
+                                        </span>
                                     </label>
                                 </div>
                                 <div class="form-item">
@@ -262,11 +263,11 @@
                 </div>
             </div>
         </div>
-        <div class="container-fluid border-bottom">
-            <div class="row profile-row">
+        <div class="container-fluid border-bottom save-btn-container">
+            <div class="row profile-row row-btn">
                 <div class="col-sm-2 blank border-right"></div>
                 <div class="col-sm-1 blank"></div>
-                <div class="col-sm-3 ">
+                <div class="col-">
                     <div class="save-btn">
                         <button form="profile-form" type="submit">Сохранить изменения</button>
                     </div>
@@ -277,17 +278,17 @@
         <div class="container"> 
             <div class="row">
                 <div class="col-sm-12">
-                    <div class="slider">
-                        <div class="slider-header d-flex justify-content-between">
+                    <div class="slider js-slider">
+                        <div class="slider-header d-flex justify-content-between align-items-baseline">
                             <h3 class="slider-title"><span class="slider-title-color">ТРЕНДЫ </span>СЕЗОНА</h3>
-                            <button class="directory-link">Перейти в каталог</button>
+                            <button class="directory-link js-button-up">Перейти в каталог</button>
                         </div>
                         <div class="owl-carousel">
                             <div class="card-product col-">
                                 <span class="special-offer">Sale</span>
                                 <div class="favorite-heart" onclick="likeHandler(this)"></div>
                                 <div class="product-picture">
-                                    <img  src="/images/cl-img.svg" alt="">
+                                    <img  src="/images/cl-img.svg" alt="product-picture">
                                 </div>
                                 <div class="ribbon color-1"></div>
                                 <div class="product-info">
@@ -304,7 +305,7 @@
                                 <span class="special-offer">Акция! 1+1=3</span>
                                 <div class="favorite-heart" onclick="likeHandler(this)"></div>
                                 <div class="product-picture">
-                                    <img  src="/images/cl-img.svg" alt="">
+                                    <img  src="/images/cl-img.svg" alt="product-picture">
                                 </div>
                                 <div class="ribbon color-2"></div>
                                 <div class="product-info">
@@ -321,7 +322,7 @@
                                 <span class="special-offer">Sale</span>
                                 <div class="favorite-heart" onclick="likeHandler(this)"></div>
                                 <div class="product-picture">
-                                    <img  src="/images/cl-img.svg" alt="">
+                                    <img  src="/images/cl-img.svg" alt="product-picture">
                                 </div>
                                 <div class="ribbon color-3"></div>
                                 <div class="product-info">
@@ -338,7 +339,7 @@
                                 <span class="special-offer">Бесплатная доставка</span>
                                 <div class="favorite-heart" onclick="likeHandler(this)"></div>
                                 <div class="product-picture">
-                                    <img  src="/images/cl-img.svg" alt="">
+                                    <img  src="/images/cl-img.svg" alt="product-picture">
                                 </div>
                                 <div class="ribbon color-2"></div>
                                 <div class="product-info">
@@ -355,7 +356,7 @@
                                 <span class="special-offer">Sale</span>
                                 <div class="favorite-heart" onclick="likeHandler(this)"></div>
                                 <div class="product-picture">
-                                    <img  src="/images/cl-img.svg" alt="">
+                                    <img  src="/images/cl-img.svg" alt="product-picture">
                                 </div>
                                 <div class="ribbon color-1"></div>
                                 <div class="product-info">
@@ -369,16 +370,17 @@
                                 </div>
                             </div>
                         </div>
+                        <button class="directory-link js-button-down d-none">Перейти в каталог</button>
                     </div>
                 </div>
             </div>
         </div> 
         <footer class="footer">
             <div class="container">
-                <div class="row justify-content-between">
-                    <div class="col-sm-3">
+                <div class="row justify-content-between col-12 footer-menu js-footer-menu">
+                    <div class="col-">
                         <div class="production">
-                            <h5 class="footer-title">Продукция</h3>
+                            <h5 class="footer-title">Продукция</h5>
                             <ul class="footer-list">
                                 <li class="production-list-item">
                                     <a href="#">Пигменты</a>
@@ -398,9 +400,9 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-sm-3">
+                    <div class="col-">
                         <div class="company">
-                            <h5 class="footer-title">Компания</h3>
+                            <h5 class="footer-title">Компания</h5>
                             <ul class="footer-list">
                                 <li class="company-list-item">
                                     <a href="#">Блог</a>
@@ -420,9 +422,9 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-sm-4">
+                    <div class="col-">
                         <div class="footer-contacts">
-                            <h5 class="footer-title">Контакты</h3>
+                            <h5 class="footer-title">Контакты</h5>
                             <ul class="footer-list">
                                 <li class="contacts-list-item">
                                     <a href="#">8 (800) 555-35-35</a>
@@ -431,7 +433,7 @@
                                     <a href="#">cedro@yandex.ru</a>
                                 </li>
                                 <li class="contacts-list-item">
-                                    <a href="#">Время работы: пн - пт с 10 до 19 </span>
+                                    <a href="#">Время работы: пн - пт с 10 до 19 </a>
                                 </li>
                                 <li class="contacts-list-item">
                                     <a href="#">г. Санкт-Петербург, <br>м. Звездная</a>
@@ -443,23 +445,23 @@
             </div>
             <div class="copyrights">
                 <div class="container">
-                    <div class="row justify-content-between">
-                        <div class="col-sm-2">
+                    <div class="row justify-content-between footer-flex-container col-12">
+                        <div class="col-">
                             <div class="social-media d-flex">
-                                <a href="#"><img src="/images/VK.svg" alt=""></a>
-                                <a href="#"><img src="/images/Facebook.svg" alt=""></a>
-                                <a href="#"><img src="/images/Instagram.svg" alt=""></a>
+                                <a href="#"><img src="/images/VK.svg" alt="icon 'Vkontakte'"></a>
+                                <a href="#"><img src="/images/Facebook.svg" alt="icon 'Facebook'"></a>
+                                <a href="#"><img src="/images/Instagram.svg" alt="icon 'Instagram'"></a>
                             </div>
                         </div>
-                        <div class="col-sm-4">
+                        <div class="col-">
                             <div class="copyright">
                                 <span>© Cedro — все права защищены, 2020</span>
                             </div>
                         </div>
-                        <div class="col-sm-2">
+                        <div class="col-">
                             <div class="made-in d-flex align-items-baseline">
                                 <span>Сделано в Cedro</span>
-                                <img src="/images/mini-logo.svg" alt="">
+                                <img src="/images/mini-logo.svg" alt="logo">
                             </div>
                         </div>
                     </div>
@@ -477,6 +479,6 @@
             </div>
         </footer>
 
-        <script src="/js/common.js"></script>
+        <script src="/js/common.js"></script>        
 </body>
 </html>

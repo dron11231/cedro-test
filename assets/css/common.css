@@ -45,6 +45,7 @@ h2 {
     background-color: #fff;
     z-index: 2;
     height: 100%;
+    overflow: scroll; 
 }
 
 .menu-header {
@@ -102,8 +103,9 @@ h2 {
 
 .logo {
     position: absolute;
-    left: 32px;
+    margin-right: auto;
     top: 16px;
+    left: 32px;
 }
 
 .header {
@@ -134,16 +136,16 @@ h2 {
 .contacts {
     font-size: 14px;
     color: #D0BC7A;
-    padding-top: 2px;
  }
 
 .icon-list {
     padding: 0;
+    gap: 8px;
 }
 
 .icon-list-item {
-    width: 32px;
-    height: 32px;
+    width: 24px;
+    height: 24px;
 }
 
 .icon {
@@ -162,6 +164,8 @@ h2 {
 
 .contacts .number {
     margin-left: 8px;
+    height: 24px;
+    line-height: 24px;
 }
 
 .contacts .icon, .contacts .number {
@@ -234,7 +238,7 @@ h2 {
 .form-input {
     margin-top: 12px;
     padding: 16px;
-    width: 100%;
+    width: 100%; 
 }
 
 /* Пароль */
@@ -251,7 +255,7 @@ h2 {
 .password-control {
     position: relative;
     display: inline-block;
-    left: 512px;
+    left: 92%;
     top: -39px;
     width: 24px;
     height: 24px;
@@ -304,11 +308,12 @@ h2 {
     background-image: url(/images/ArrowRight.svg);
     background-repeat: no-repeat;
     background-position-x: 150px;
-    background-position-y: 26px;
+    background-position-y: 5px;
     background-color: #fff;
     border: none;
     padding-right: 30px;
     font-weight: 500;
+    height: 24px;
 }
 
 .slider-title {

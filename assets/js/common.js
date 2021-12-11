@@ -13,10 +13,17 @@ let owlCarouselPlugin = function () {
                 items:1
             },
             600:{
-                items:3
+                items:2,
+                center: true
             },            
-            960:{
+            1000:{
+                items:3
+            },
+            1200:{
                 items:4
+            },
+            1700:{
+                items:5
             },
         }
     });
@@ -122,3 +129,35 @@ let likeHandler = (el) => {
 
     
 }
+
+/* media */
+
+window.onresize = () => {           // Функция обновляющая страницу при изменении размеров (Нужно, чтобы при повороте устройства заново загрузился скрипт и прошла проверка ширины экрана)
+    document.location.reload(true); 
+    }
+
+    if (document.documentElement.clientWidth < 995 && document.documentElement.clientWidth > 575) {
+    document.querySelector('.js-footer-menu').classList.remove('col-12');
+    document.querySelector('.js-footer-menu').classList.add('col-');
+}  
+
+if (document.documentElement.clientWidth < 800) {
+
+   let formContainers = document.querySelectorAll('.js-form-containers')
+   formContainers.forEach(el => {
+       el.classList.remove('col-10');
+       el.classList.add('col-');
+   })
+   document.querySelector('.js-title-containers').classList.remove('col-sm-9');
+   document.querySelector('.js-title-containers').classList.add('col-');
+   document.querySelector('.js-side-nav-container').classList.remove('col-sm-2');
+   document.querySelector('.js-side-nav-container').classList.add('col-');
+   document.querySelector('.js-profile-data-container').classList.remove('col-');
+   document.querySelector('.js-profile-data-container').classList.add('col-12');
+   document.querySelector('.js-change-password').classList.remove('col-');
+   document.querySelector('.js-change-password').classList.add('col-12');
+   document.querySelector('.js-header-bar').classList.add('col-10')
+
+   document.querySelector('.js-button-up').remove()
+   document.querySelector('.js-button-down').classList.remove('d-none')
+} 
